@@ -1,38 +1,41 @@
 package com.escuelaing.arsw;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import com.escuelaing.arsw.Calculator;
+import com.escuelaing.arsw.model.Reader;
+import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
+
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+public class AppTest {
+    
+    private final Calculator cal = new Calculator();
+    private final Reader rea = new Reader();
+    private final String file1 = "prueba1.txt";
+    private final String file2 = "prueba2.txt";
+    
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    @Test
+    public void AppFile1(){
+        try{
+            String[] args = {file1};
+            Calculator.main(args);
+            assertTrue(true);
+        }catch(Exception e){
+            assertTrue(false);
+        }
     }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+    @Test
+    public void AppFile2(){
+        try{
+            String[] args = {file2};
+            Calculator.main(args);
+            assertTrue(true);
+        }catch(Exception e){
+            assertTrue(false);
+        }
+    }    
 }
