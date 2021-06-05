@@ -186,9 +186,4 @@ public class LinkedList<E> implements List<E>{
     public List<E> subList(int fromIndex, int toIndex) {
         throw new UnsupportedOperationException("Not supported subList."); //To change body of generated methods, choose Tools | Templates.
     }
-
-
-    
-
-    
 }

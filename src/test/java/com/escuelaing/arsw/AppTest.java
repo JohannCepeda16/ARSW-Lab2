@@ -14,8 +14,8 @@ public class AppTest {
     
     private final Calculator cal = new Calculator();
     private final Reader rea = new Reader();
-    private final String file1 = "prueba1.txt";
-    private final String file2 = "prueba2.txt";
+    private final String file1 = "prueba.txt";
+    private final String file2 = "prueba1.txt";
     
 
     @Test

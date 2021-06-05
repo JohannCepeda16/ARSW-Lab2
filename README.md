@@ -5,15 +5,15 @@ Calculator es un programa que permite hallar la media y la desviación estandar 
 ### Conteo de horas
 
 * Horas trabajadas: 5
-* Lineas de código: 68
-* Loc/h: 17
+* Lineas de código: 317
+* Loc/h: 63.4
 
 ### Prerequisitos
 Se recomienda contar con las siguientes versiones instaladas:
 ```
 version de java: 15
 version de compilador: 1.8
-Apache maven: 3.63 
+Apache maven: 3.6.3 
 ```
 
 ### Instalación
@@ -21,12 +21,12 @@ Para uso del proyecto requerimos clonar este repositorio. Siga los pasos:
 
 1. Clonamos el repositorio con ayuda de git
 ```
-git clone https://github.com/JohannCepeda16/ARSW-Lab1.git
+git clone https://github.com/JohannCepeda16/ARSW-Lab2.git
 ```
 
 2. Accedemos a la carpeta donde hemos clonado
 ```
-cd ARSW-Lab1
+cd ARSW-Lab2
 ```
 
 3. Compilamos nuestro proyecto para generar el target
@@ -44,7 +44,7 @@ Si queremos ejecutar las pruebas de nuestro proyecto debemos ubicarnos en la rai
 ```
 mvn test
 ```
-![test](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/test.PNG)
+![test](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/Test.PNG)
 
 
 ## Programa hecho con
@@ -62,7 +62,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.tx
 
 ## Diseño
 
-Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/LOC%20Counting.pdf)
+Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/model.pdf)
 
 ## Report de pruebas
 Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/TestReportpdf.pdf)
