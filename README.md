@@ -44,7 +44,7 @@ Si queremos ejecutar las pruebas de nuestro proyecto debemos ubicarnos en la rai
 ```
 mvn test
 ```
-![test](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/Test.PNG)
+![test](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/Test.PNG)
 
 
 ## Programa hecho con
@@ -62,14 +62,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.tx
 
 ## Diseño
 
-Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/model.pdf)
+Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/model.pdf)
 
 ## Report de pruebas
-Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](https://github.com/JohannCepeda16/ARSW-Lab1/blob/main/resources/TestReportpdf.pdf)
+Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/blob/main/resources/TestReportpdf.pdf)
 
 ## JavaDoc
 
-La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab1/tree/main/src/site/apidocs)
+La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/tree/main/src/site/apidocs)
 
 
 
