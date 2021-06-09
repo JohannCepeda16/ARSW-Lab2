@@ -69,7 +69,13 @@ Para mas informacion de las pruebas del proyecto, siga el siguente [enlace](http
 
 ## JavaDoc
 
-La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/tree/main/src/site/apidocs)
+La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab2/tree/main/src/site/apidocs) 
+
+o generandola autimaticamente con el comando
+```
+mvn javadoc:javadoc
+```
+
 
 
 
